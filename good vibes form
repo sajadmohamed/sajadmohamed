@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>sajad task</title>
+    </head>
+    <body>
+         <h1>GOOD VIBES FORM</h1> 
+         <p> <b>tell us something positive that happened to you today</b> </p>
+         <form action="" method="post">
+             <label for="name "><b>Name</b></label><br>
+             <input type="text" id="name" name="name" placeholder="enter your name "><br>
+             <label for="emali"> <b>Emali</b> </label><br>
+             <input type="text" id="emali" placeholder="enter your email adress"><br>
+             <label for="quantity"><b>on a scale of 1-10 , how good was it ?</b></label><br>
+             <input typer="number" id="number" placeholder="Enter a number between 1 and 10 " min="1" max="10"><br>
+            <label > <b>where did it happened ?</b> </label><br>
+             <select id="place" name="place">
+                  <option value="at home">at home</option><br>
+                  <option value="at work space ">at work space</option><br>
+                  <option value="at college">at college</option><br>
+             </select><br>
+            <label><b>at what time of day did it happen ?</b></label><br>
+                 <input type="radio" name="1">morning <br>
+                 <input type="radio" name="1">afternoon <br>
+                 <input type="radio" name="1">evening <br>
+            <label> <b>wahat emotions did you experience?</b><br><b>(select all that apply )</b></label><br>
+               <input type="checkbox"><b>excited</b><br>
+               <input type="checkbox"><b>humbled</b><br>
+               <input type="checkbox"><b>elated</b><br>
+               <input type="checkbox"><b>loved</b><br>
+               <input type="checkbox"><b>enthusiastic</b><br>
+            <label><b>please describe your positive experience</b> </label> <br> <br>
+               <textarea name="message" rows="6" cols="6" placeholder="enter your experience"></textarea><br>
+               <input type="submit" value="Submit">
+            
+        
+         </form>
+    </body>
+</html>    
