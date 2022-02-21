@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-end</title>
+    <link rel="icon" type="image/x-icon" href="dy1.jpg">
+</head>
+<body>
+   <h3>front-end code lan </h3>
+   <div>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+      </ol>
+   <div >
+       <img src="p1.jpg" >
+    </div>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>location</th>
+          </tr>
+          <tr>
+              <th>iot</th>
+              <th>iot@outlook.sa</th>
+              <th>bg-52street</th>
+          </tr>
+    </table>
+    <p>
+        <b>HTML</b> can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+    </p>
+</body>
+</html>
