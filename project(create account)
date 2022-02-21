@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1{
+    color: #f8534e;
+
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    
+    
+}
+.h8{
+    background-color: #f8534e;
+    color: white;
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+}
+.h9{
+    border: #f8534e solid;
+    background-color: white;
+    color: #f8534e;
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+}
+    </style>
+    <title>day 2</title>
+</head>
+<body>
+    <center>
+<div class="p-10">
+        <div class="text-5xl" >
+            <h1>Create Account</h1>
+       </div>
+
+       <div class="mt-8">
+           <div class="space-x-4">
+            <i class="fa fa-google border-2  rounded-full  p-2 "></i>
+            <i class="fa fa-linkedin  border-2  rounded-full  p-2 "></i>
+            <i class="fa fa-twitter border-2  rounded-full  p-2"></i>
+            <i class="fa fa-github border-2  rounded-full  p-2"></i>
+            </div>
+       </div>
+
+       <div class="mt-8">
+           <p> or use your email for registration : </p>
+       </div>
+
+
+    <div>
+       <div>
+         <input class="border-2 border-solid rounded p-1 mt-8 "  type="text" id="fname" name="fname" placeholder="name" size="50px" maxlength="50px">
+       </div>
+       <div>
+        <input class="border-2 border-solid rounded p-1 mt-8" type="text" id="fname" name="fname" placeholder="email" size="50px" maxlength="50px">
+      </div>
+      <div>
+        <input class="border-2 border-solid rounded p-1 mt-8 " type="text" id="fname" name="fname" placeholder="password" size="50px" maxlength="50px">
+      </div>
+     </div>
+
+     <div class="mt-8">
+        <input type="checkbox" class="accent-pink-500" > 
+        <label for="checkbox" class="p-2"> i agree to the <a style="color: #f8534e;">Terms</a> and <a style="color: #f8534e;">Privacy Policy</a></label>
+     </div>
+     <div class="m-6">
+        <button class="inline-block align-bottom border rounded p-3 m-8 h8 ">Sign Up</button>
+        <button class="inline-block align-bottom border rounded m-8 h9 ">Sign Up</button>
+
+     </div>
+
+       
+
+</div>
+<center>
+    
+</body>
+</html>
